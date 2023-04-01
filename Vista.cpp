@@ -40,7 +40,7 @@ void Vista::mostrarMenu() {
 
 }
 
-void Vista::elegirOpcion(const char opcion) {
+void Vista::elegirOpcion(char opcion) {
 
 	switch (opcion) {
 	case '1':
@@ -66,7 +66,7 @@ void Vista::opcionInvalida() {
 }
 
 void Vista::historialDeCotizaciones() {
-	char opcion;
+	string opcion;
 	titulo("HISTORIAL DE COTIZACIONES");
 	presentador->mostrarHistorialDeCotizaciones();
 	cin >> opcion;
@@ -166,7 +166,7 @@ void Vista::elegirPrecio() {
 	mostrarTexto("----------------------------------------------");
 
 	try {
-		int precioUnitario = stod(strPrecioUnitario);
+		double precioUnitario = stod(strPrecioUnitario);
 		prenda->setPrecioUnitario(precioUnitario);
 		elegirCantidad();
 	}

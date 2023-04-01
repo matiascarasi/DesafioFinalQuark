@@ -2,26 +2,46 @@
 #include "Pantalon.h"
 #include "TipoPantalonFactory.h"
 
-void PasosPantalon::elegirTipos() {
-
-	int opcion;
-	Caracteristica* tipoPantalon{};
-
+Caracteristica* PasosPantalon::elegirTipoPantalon() {
+	string strOpcion;
 	system("cls");
 	vista->mostrarTexto("COTIZADOR EXPTRESS - COTIZAR");
 	vista->mostrarTexto("----------------------------------------------");
 	vista->mostrarTexto("Presione 3 para volver al menu principal");
 	vista->mostrarTexto("----------------------------------------------");
-	vista->mostrarTexto("PASO 2.a: El pantalon a cotizar, ¿es Chupin?");
+	vista->mostrarTexto("PASO 2: El pantalon a cotizar, ¿es Chupin?");
 	vista->mostrarTexto("1) Si");
 	vista->mostrarTexto("2) No");
 	vista->mostrarTexto("----------------------------------------------");
 
-	cin >> opcion;
+	cin >> strOpcion;
 
-	auto tipoPantalones = TipoPantalonFactory::getCaracteristicaMap();
+	try {
+		int opcion = stoi(strOpcion);
 
-	opcion == 1 ? tipoPantalon = tipoPantalones[(int)TipoPantalonType::CHUPIN] : tipoPantalones[(int)TipoPantalonType::COMUN];
+		if (opcion == 3) {
+			return NULL;
+		}
+
+		auto tipoPantalones = TipoPantalonFactory::getCaracteristicaMap();
+		return opcion == 1 ? tipoPantalones[(int)TipoPantalonType::CHUPIN] : tipoPantalones[(int)TipoPantalonType::COMUN];
+	}
+	catch (invalid_argument)
+	{
+		return NULL;
+	}
+
+}
+
+void PasosPantalon::elegirTipos() {
+
+	Caracteristica* tipoPantalon = elegirTipoPantalon();
+	
+	if (tipoPantalon == NULL) {
+		vista->opcionInvalida();
+		return;
+	}
+
 
 	vista->setPrenda(new Pantalon(tipoPantalon));
 

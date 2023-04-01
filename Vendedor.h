@@ -14,6 +14,7 @@ class Vendedor {
 	string apellido;
 	string codigoVendedor;
 	list<Cotizacion*> historialCotizaciones;
+	string codigoTienda;
 public:
 	Vendedor(string, string, string);
 	bool cotizar(Prenda*, int);

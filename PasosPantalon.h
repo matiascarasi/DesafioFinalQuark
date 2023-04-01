@@ -7,6 +7,7 @@ class PasosPrenda;
 
 class PasosPantalon : public PasosPrenda {
 	const string nombre = "Pantalon";
+	Caracteristica* elegirTipoPantalon();
 public:
 	PasosPantalon(IVista* vista) : PasosPrenda(vista) {  };
 	void elegirTipos();

@@ -17,7 +17,7 @@ Pantalon::~Pantalon() {
 
 double Pantalon::precio() {
 	double descuentoPantalon = tipoPantalon->descontar(precioUnitario);
-	return calidad->descontar(precioUnitario);
+	return calidad->descontar(descuentoPantalon);
 }
 
 string Pantalon::toString() {

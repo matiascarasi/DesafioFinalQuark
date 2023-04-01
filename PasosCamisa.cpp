@@ -19,6 +19,11 @@ Caracteristica* PasosCamisa::elegirTipoManga() {
 
 	try {
 		int opcion = stoi(strOpcion);
+
+		if (opcion == 3) {
+			return NULL;
+		}
+
 		auto tipoMangas = TipoMangaFactory::getCaracteristicaMap();
 		return opcion == 1 ? tipoMangas[(int)TipoMangaType::CORTA] : tipoMangas[(int)TipoMangaType::LARGA];
 	} 
@@ -45,6 +50,11 @@ Caracteristica* PasosCamisa::elegirTipoCuello() {
 
 	try {
 		int opcion = stoi(strOpcion);
+
+		if (opcion==3) {
+			return NULL;
+		}
+
 		auto tipoCuellos = TipoCuelloFactory::getCaracteristicaMap();
 		return opcion == 1 ? tipoCuellos[(int)TipoCuelloType::MAO] : tipoCuellos[(int)TipoCuelloType::COMUN];
 	}

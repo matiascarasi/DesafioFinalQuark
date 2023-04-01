@@ -13,12 +13,12 @@ private:
 	Presentador* presentador;
 	void pantallaPrincipal();
 	void mostrarMenu();
-	void elegirOpcion(const char opcion);
+	void elegirOpcion(char);
 	void historialDeCotizaciones();
 	void realizarCotizacion();
 	void elegirPrecio();
 	void elegirCantidad();
-	void titulo(string titulo);
+	void titulo(string);
 	map<int, PasosPrenda*> mapaPasosPrendas;
 	map<int, Caracteristica*> mapaCalidades;
 	Prenda* prenda;

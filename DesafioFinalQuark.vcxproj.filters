@@ -46,13 +46,13 @@
     <Filter Include="Archivos de encabezado\Presentador">
       <UniqueIdentifier>{b68112db-9c1d-43ff-b124-3e7ecefefb8c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Archivos de origen\Modelo\Presentador">
-      <UniqueIdentifier>{d2c879a9-1fc0-46f3-8c15-eb2d7f636462}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Archivos de encabezado\Vista\PasosPrenda">
+    <Filter Include="Archivos de encabezado\Presentador\PasosPrenda">
       <UniqueIdentifier>{27b7ca31-a271-4267-b69e-2ef9e8853190}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Archivos de origen\Modelo\Presentador\PasosPrenda">
+    <Filter Include="Archivos de origen\Presentador">
+      <UniqueIdentifier>{d2c879a9-1fc0-46f3-8c15-eb2d7f636462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Presentador\PasosPrenda">
       <UniqueIdentifier>{747ddd25-416c-469c-8a6c-98111b3cc9ef}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -97,7 +97,7 @@
       <Filter>Archivos de origen\Modelo\Caracteristicas\Factory</Filter>
     </ClCompile>
     <ClCompile Include="Presentador.cpp">
-      <Filter>Archivos de origen\Modelo\Presentador</Filter>
+      <Filter>Archivos de origen\Presentador</Filter>
     </ClCompile>
     <ClCompile Include="PrendaFactory.cpp">
       <Filter>Archivos de origen\Modelo\Prenda</Filter>
@@ -106,13 +106,13 @@
       <Filter>Archivos de origen\Modelo</Filter>
     </ClCompile>
     <ClCompile Include="PasosPrenda.cpp">
-      <Filter>Archivos de origen\Modelo\Presentador\PasosPrenda</Filter>
+      <Filter>Archivos de origen\Presentador\PasosPrenda</Filter>
     </ClCompile>
     <ClCompile Include="PasosCamisa.cpp">
-      <Filter>Archivos de origen\Modelo\Presentador\PasosPrenda</Filter>
+      <Filter>Archivos de origen\Presentador\PasosPrenda</Filter>
     </ClCompile>
     <ClCompile Include="PasosPantalon.cpp">
-      <Filter>Archivos de origen\Modelo\Presentador\PasosPrenda</Filter>
+      <Filter>Archivos de origen\Presentador\PasosPrenda</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -168,13 +168,13 @@
       <Filter>Archivos de encabezado\Modelo\Prenda</Filter>
     </ClInclude>
     <ClInclude Include="PasosCamisa.h">
-      <Filter>Archivos de encabezado\Vista\PasosPrenda</Filter>
+      <Filter>Archivos de encabezado\Presentador\PasosPrenda</Filter>
     </ClInclude>
     <ClInclude Include="PasosPantalon.h">
-      <Filter>Archivos de encabezado\Vista\PasosPrenda</Filter>
+      <Filter>Archivos de encabezado\Presentador\PasosPrenda</Filter>
     </ClInclude>
     <ClInclude Include="PasosPrenda.h">
-      <Filter>Archivos de encabezado\Vista\PasosPrenda</Filter>
+      <Filter>Archivos de encabezado\Presentador\PasosPrenda</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
