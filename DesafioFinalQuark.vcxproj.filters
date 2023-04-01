@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Modelo">
+      <UniqueIdentifier>{1b522c85-4762-4fbd-a3f0-74722ef8d2f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Modelo">
+      <UniqueIdentifier>{aaa8c527-6938-42ab-bae9-00559f0a419a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Modelo\Caracteristicas">
+      <UniqueIdentifier>{d0452b4b-b94a-4de3-8f8f-244e9e50c858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Modelo\Prenda">
+      <UniqueIdentifier>{c9cfc249-f131-4329-8c83-940b66ae2163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Modelo\Prenda">
+      <UniqueIdentifier>{4756178c-acbb-4a3e-ac7f-49164e9b5ffb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Vista">
+      <UniqueIdentifier>{626df1b8-77c8-42f9-8843-17304edecb6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Vista">
+      <UniqueIdentifier>{13fdb012-3ba2-454c-b80f-87bf70e4799c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Modelo\Caracteristicas">
+      <UniqueIdentifier>{8089c820-5f87-43fe-aa8d-aa2ffeac4a28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Modelo\Caracteristicas\Factory">
+      <UniqueIdentifier>{46c6d8f3-aa32-4ba2-8896-4727cfadd379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Modelo\Caracteristicas\Factory">
+      <UniqueIdentifier>{2c3d5fbf-6796-4fa9-b348-e9b5a9fa594e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Presentador">
+      <UniqueIdentifier>{b68112db-9c1d-43ff-b124-3e7ecefefb8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Modelo\Presentador">
+      <UniqueIdentifier>{d2c879a9-1fc0-46f3-8c15-eb2d7f636462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Vista\PasosPrenda">
+      <UniqueIdentifier>{27b7ca31-a271-4267-b69e-2ef9e8853190}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Modelo\Presentador\PasosPrenda">
+      <UniqueIdentifier>{747ddd25-416c-469c-8a6c-98111b3cc9ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DesafioFinalQuark.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Fecha.cpp">
+      <Filter>Archivos de origen\Modelo</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendedor.cpp">
+      <Filter>Archivos de origen\Modelo</Filter>
+    </ClCompile>
+    <ClCompile Include="Cotizacion.cpp">
+      <Filter>Archivos de origen\Modelo</Filter>
+    </ClCompile>
+    <ClCompile Include="Pantalon.cpp">
+      <Filter>Archivos de origen\Modelo\Prenda</Filter>
+    </ClCompile>
+    <ClCompile Include="Camisa.cpp">
+      <Filter>Archivos de origen\Modelo\Prenda</Filter>
+    </ClCompile>
+    <ClCompile Include="Vista.cpp">
+      <Filter>Archivos de origen\Vista</Filter>
+    </ClCompile>
+    <ClCompile Include="Caracteristica.cpp">
+      <Filter>Archivos de origen\Modelo\Caracteristicas</Filter>
+    </ClCompile>
+    <ClCompile Include="ICaracteristicaFactory.cpp">
+      <Filter>Archivos de origen\Modelo\Caracteristicas</Filter>
+    </ClCompile>
+    <ClCompile Include="TipoPantalonFactory.cpp">
+      <Filter>Archivos de origen\Modelo\Caracteristicas\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="TipoCuelloFactory.cpp">
+      <Filter>Archivos de origen\Modelo\Caracteristicas\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="TipoMangaFactory.cpp">
+      <Filter>Archivos de origen\Modelo\Caracteristicas\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="CalidadFactory.cpp">
+      <Filter>Archivos de origen\Modelo\Caracteristicas\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Presentador.cpp">
+      <Filter>Archivos de origen\Modelo\Presentador</Filter>
+    </ClCompile>
+    <ClCompile Include="PrendaFactory.cpp">
+      <Filter>Archivos de origen\Modelo\Prenda</Filter>
+    </ClCompile>
+    <ClCompile Include="Tienda.cpp">
+      <Filter>Archivos de origen\Modelo</Filter>
+    </ClCompile>
+    <ClCompile Include="PasosPrenda.cpp">
+      <Filter>Archivos de origen\Modelo\Presentador\PasosPrenda</Filter>
+    </ClCompile>
+    <ClCompile Include="PasosCamisa.cpp">
+      <Filter>Archivos de origen\Modelo\Presentador\PasosPrenda</Filter>
+    </ClCompile>
+    <ClCompile Include="PasosPantalon.cpp">
+      <Filter>Archivos de origen\Modelo\Presentador\PasosPrenda</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vendedor.h">
+      <Filter>Archivos de encabezado\Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="Cotizacion.h">
+      <Filter>Archivos de encabezado\Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="Fecha.h">
+      <Filter>Archivos de encabezado\Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="Tienda.h">
+      <Filter>Archivos de encabezado\Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="Prenda.h">
+      <Filter>Archivos de encabezado\Modelo\Prenda</Filter>
+    </ClInclude>
+    <ClInclude Include="Caracteristica.h">
+      <Filter>Archivos de encabezado\Modelo\Caracteristicas</Filter>
+    </ClInclude>
+    <ClInclude Include="Pantalon.h">
+      <Filter>Archivos de encabezado\Modelo\Prenda</Filter>
+    </ClInclude>
+    <ClInclude Include="Camisa.h">
+      <Filter>Archivos de encabezado\Modelo\Prenda</Filter>
+    </ClInclude>
+    <ClInclude Include="Vista.h">
+      <Filter>Archivos de encabezado\Vista</Filter>
+    </ClInclude>
+    <ClInclude Include="IVista.h">
+      <Filter>Archivos de encabezado\Vista</Filter>
+    </ClInclude>
+    <ClInclude Include="ICaracteristicaFactory.h">
+      <Filter>Archivos de encabezado\Modelo\Caracteristicas</Filter>
+    </ClInclude>
+    <ClInclude Include="CalidadFactory.h">
+      <Filter>Archivos de encabezado\Modelo\Caracteristicas\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="TipoCuelloFactory.h">
+      <Filter>Archivos de encabezado\Modelo\Caracteristicas\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="TipoMangaFactory.h">
+      <Filter>Archivos de encabezado\Modelo\Caracteristicas\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="TipoPantalonFactory.h">
+      <Filter>Archivos de encabezado\Modelo\Caracteristicas\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentador.h">
+      <Filter>Archivos de encabezado\Presentador</Filter>
+    </ClInclude>
+    <ClInclude Include="PrendaFactory.h">
+      <Filter>Archivos de encabezado\Modelo\Prenda</Filter>
+    </ClInclude>
+    <ClInclude Include="PasosCamisa.h">
+      <Filter>Archivos de encabezado\Vista\PasosPrenda</Filter>
+    </ClInclude>
+    <ClInclude Include="PasosPantalon.h">
+      <Filter>Archivos de encabezado\Vista\PasosPrenda</Filter>
+    </ClInclude>
+    <ClInclude Include="PasosPrenda.h">
+      <Filter>Archivos de encabezado\Vista\PasosPrenda</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
